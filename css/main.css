@@ -6,6 +6,7 @@
 
 nav {
         background-color: #FFF !important;
+        border-top: 5px solid #F9437F !important;
         box-shadow: 0px 1px 2px rgba(0,0,0,0.15)!important;
         height: 50px !important;
         padding: 5px 5px 8px 5px !important;
