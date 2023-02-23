@@ -15,15 +15,12 @@ nav {
         left: 0px !important;
 }
 
-nav #button_home {
-        background: transparent;
-        border: none;
+nav #lien_home {
+        color: #000 !important;
         font-family: "Quentin" !important;
         font-size: 25pt !important;
+        text-decoration: none !important;
         padding-left: 20px;
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
 }
 
 nav ul {
