@@ -44,7 +44,7 @@ nav ul li button {
         cursor: pointer !important;
 }
 
-nav ul li button .menu_dropdown_1 {
+nav ul li button .menu_dropdown {
         display: none;
 }
 
