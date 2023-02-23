@@ -7,28 +7,6 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
 			<script type="text/javascript">
-				$(document).ready(function() {
-					function updateDate() {
-						var m = new Date();       
-						var dateString = ('0' + m.getDate()).slice(-2) + '.' + ('0' + (m.getMonth()+1)).slice(-2);
-						document.getElementById('date').innerHTML = dateString;
-					}
-					updateDate();
-				});
-				$(document).ready(function() {
-					$(window).scroll(function(){
-						if ($(this).scrollTop() > 100) {
-							$('#top').fadeIn();
-						} else {
-							$('#top').fadeOut();
-						}
-					});
-
-					$('#top').click(function(){
-						$('html, body').animate({scrollTop : 0},800);
-						return false;
-					});
-				});
       			</script>
 		</head>
 		<body>
