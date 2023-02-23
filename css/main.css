@@ -43,4 +43,10 @@ nav ul li button {
         text-transform: uppercase !important;
 }
 
+nav ul li button .menu_dropdown {
+        display: none;
+}
+
+.show {
+        display:block;
 }
