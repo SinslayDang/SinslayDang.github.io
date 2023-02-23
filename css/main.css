@@ -15,9 +15,13 @@ nav {
         left: 0px !important;
 }
 
-nav ul,
+nav ul {
+        float: right !important;
+        padding-right: 20px !important;
+}
+
 nav ul li {
-        display: inline-block !important;
+        margin-right: 5px;
 }
 
 }
