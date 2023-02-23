@@ -7,14 +7,43 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
 			<script type="text/javascript">
+				function dropdown() {
+					document.getElementById("menu_dropdown_carnets").classList.toggle("show");
+				}
+
+				// Close the dropdown menu if the user clicks outside of it
+				window.onclick = function(event) {
+					if (!event.target.matches('.button_dropdown')) {
+						var dropdowns = document.getElementsByClassName("menu_dropdown");
+						var i;
+						for (i = 0; i < dropdowns.length; i++) {
+							var openDropdown = dropdowns[i];
+								if (openDropdown.classList.contains('show')) {
+									openDropdown.classList.remove('show');
+								}
+						}
+					}
+				} 
       			</script>
 		</head>
 		<body>
 			<nav>
 				<button id="button_home">Sinslay</button>
 				<ul>
-					<li><button id="button_carnets">carnets</button></li>
-					<li><button id="button_projets">projets</button></li>
+					<li>
+						<button onclick="dropdown()" class="button_dropdown">carnets</button>
+						<div id="menu_dropdown_carnets" class="menu_dropdown">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a
+						</div>
+					</li>
+					<li>
+						<button onclick="dropdown()" class="button_dropdown">projets</button>
+						<div id="menu_dropdown_projets" class="menu_dropdown">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a
+						</div>
+					</li>
 				</ul>
 			</nav>
 		</body>
