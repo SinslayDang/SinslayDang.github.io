@@ -18,6 +18,8 @@ nav {
 #button_home {
         background: transparent;
         border: none;
+        font-family: "Quentin" !important;
+        font-size: 25pt !important;
         padding-left: 20px;
         position: absolute;
         top: 0px;
@@ -30,7 +32,16 @@ nav ul {
 }
 
 nav ul li {
-        margin-right: 5px;
+        margin-right: 10px;
+}
+
+nav ul li a {
+        color: #000 !important;
+        font-family: "Montserrat" !important;
+        font-weight: bold !important;
+        letter-spacing: 2px !important;
+        text-decoration: none !important;
+        text-transform: uppercase !important;
 }
 
 }
