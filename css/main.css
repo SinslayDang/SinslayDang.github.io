@@ -44,9 +44,6 @@ nav ul li button {
         font-weight: bold !important;
         letter-spacing: 2px !important;
         text-transform: uppercase !important;
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
 }
 
 }
