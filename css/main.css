@@ -41,12 +41,13 @@ nav ul li button {
         font-weight: bold !important;
         letter-spacing: 2px !important;
         text-transform: uppercase !important;
+        cursor: pointer !important;
 }
 
-nav ul li button .menu_dropdown {
+nav ul li button .menu_dropdown_1 {
         display: none;
 }
 
 .show {
-        display:block;
+        display: block;
 }
