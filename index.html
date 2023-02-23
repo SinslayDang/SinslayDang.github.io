@@ -3,43 +3,5 @@ layout: default
 title: Blog de Mr. DANG, professeur de mathématiques
 ---
 <div id="content">
-	<h1>Page d'accueil</h1>
-	<p>Ce blog est destiné à mes élèves de 6ème et 4ème pour pouvoir travailler durant cette période de confinement (en particulier pour ceux qui ne peuvent pas accéder à Pronote).</a></p>
 	
-	<p>Sélectionnez le blog qui vous intéresse (6ème, 4ème, Autres) dans <strong>la barre de navigation en haut de la page</strong>.</p>
-
-	<p>Si vous avez des questions concernant un cours ou un exercice, n'hésitez pas à m'envoyer un <a href="mailto:benjamindang2015@gmail.com">mail</a>, un SMS au <strong>06 52 83 26 01</strong> ou un message sur What's App.</p>
-	
-	<h1 class="section">Derniers articles (6ème)</h1>
-	<ul class="posts">
-		{% for post in site.categories.6eme limit:1 %}
-			<li class="new"><span>{{ post.date | date_to_string }}, {{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class="chapter">{{ post.chapter }}</span><span class="format">{{ post.format }}</span></li>
-		{% endfor %}
-		{% for post in site.categories.6eme offset:1 limit:2 %}
-			<li><span>{{ post.date | date_to_string }}, {{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class="chapter">{{ post.chapter }}</span><span class="format">{{ post.format }}</span></li>
-		{% endfor %}
-		<li><a href="\blog6">Voir les autres articles</a>
-	</ul>
-
-	<h1 class="section">Derniers articles (4ème)</h1>
-	<ul class="posts">
-		{% for post in site.categories.4eme limit:1 %}
-			<li class="new"><span>{{ post.date | date_to_string }}, {{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class="chapter">{{ post.chapter }}</span><span class="format">{{ post.format }}</span></li>
-		{% endfor %}
-		{% for post in site.categories.4eme offset:1 limit:2 %}
-			<li><span>{{ post.date | date_to_string }}, {{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class="chapter">{{ post.chapter }}</span><span class="format">{{ post.format }}</span></li>
-		{% endfor %}
-		<li><a href="\blog4">Voir les autres articles</a>
-	</ul>
-
-	<h1 class="section">Derniers articles (Autres)</h1>
-	<ul class="posts">
-		{% for post in site.categories.trivia limit:1 %}
-			<li class="new"><span>{{ post.date | date_to_string }}, {{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-		{% endfor %}
-		{% for post in site.categories.trivia offset:1 limit:2 %}
-			<li><span>{{ post.date | date_to_string }}, {{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-		{% endfor %}
-		<li><a href="\blog">Voir les autres articles</a>
-	</ul>
 </div>
