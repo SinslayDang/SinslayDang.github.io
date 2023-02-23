@@ -8,7 +8,7 @@
 			<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
 			<script type="text/javascript">
 				function dropdown() {
-					document.getElementById("menu_dropdown_carnets").classList.toggle("show");
+					document.getElementsByClassName("menu_dropdown").classList.toggle("show");
 				}
 
 				// Close the dropdown menu if the user clicks outside of it
@@ -28,18 +28,18 @@
 		</head>
 		<body>
 			<nav>
-				<a id="lien_home">Sinslay</a>
+				<a id="lien_home" href="#">Sinslay</a>
 				<ul>
 					<li>
 						<button onclick="dropdown()" class="button_dropdown">carnets</button>
-						<div id="menu_dropdown_carnets" class="menu_dropdown">
+						<div class="menu_dropdown">
 							<a href="#">Link 1</a>
 							<a href="#">Link 2</a
 						</div>
 					</li>
 					<li>
 						<button onclick="dropdown()" class="button_dropdown">projets</button>
-						<div id="menu_dropdown_projets" class="menu_dropdown">
+						<div class="menu_dropdown">
 							<a href="#">Link 1</a>
 							<a href="#">Link 2</a
 						</div>
