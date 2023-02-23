@@ -36,25 +36,17 @@ nav ul li {
         margin-right: 10px;
 }
 
-nav ul li a {
+nav ul li button {
+        background: transparent;
+        border: none;
         color: #000;
         font-family: "Montserrat" !important;
         font-weight: bold !important;
         letter-spacing: 2px !important;
-        text-decoration: none !important;
         text-transform: uppercase !important;
-}
-
-nav ul li #lien_carnets {
-        color: #c0392b !important;
-}
-
-nav ul li #lien_projets_gobelins {
-        color: #2980b9 !important;
-}
-
-nav ul li #lien_projets_bac {
-        color: #f39c12 !important;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
 }
 
 }
