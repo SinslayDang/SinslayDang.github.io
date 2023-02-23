@@ -4,6 +4,10 @@
         font-family: "Roboto", sans-serif !important;
 }
 
+body {
+        background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
 nav {
         background-color: #FFF !important;
         border-top: 5px solid #F9437F !important;
