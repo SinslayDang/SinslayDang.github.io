@@ -15,7 +15,7 @@ nav {
         left: 0px !important;
 }
 
-#button_home {
+nav #button_home {
         background: transparent;
         border: none;
         font-family: "Quentin" !important;
@@ -36,12 +36,24 @@ nav ul li {
 }
 
 nav ul li a {
-        color: #000 !important;
+        color: #000;
         font-family: "Montserrat" !important;
         font-weight: bold !important;
         letter-spacing: 2px !important;
         text-decoration: none !important;
         text-transform: uppercase !important;
+}
+
+nav ul li #lien_carnets {
+        color: #c0392b !important;
+}
+
+nav ul li #lien_projets_gobelins {
+        color: #2980b9 !important;
+}
+
+nav ul li #lien_projets_bac {
+        color: #f39c12 !important;
 }
 
 }
