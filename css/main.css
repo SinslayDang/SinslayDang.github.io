@@ -10,9 +10,13 @@ nav {
         height: 40px;
         padding: 10px;
         width: 100%;
-        position: fixed
+        position: fixed;
         top: 0px;
         left: 0px;
+}
+
+nav ul li {
+        display: inline-block;
 }
 
 }
