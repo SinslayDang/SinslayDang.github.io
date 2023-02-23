@@ -5,9 +5,9 @@
 }
 
 nav {
-        background: #000;
-        height: 40px;
-        width: 100%;
-        position: fixed;
-        top: 0px;
+        background-color: #000 !important;
+        height: 40px !important;
+        width: 100% !important;
+        position: fixed !important;
+        top: 0px !important;
 }
