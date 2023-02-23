@@ -31,7 +31,7 @@ nav ul {
         padding-right: 20px !important;
 }
 
-nav ul li {
+nav ul #liste {
         display: inline-block !important;
         margin-right: 10px;
 }
