@@ -15,6 +15,15 @@ nav {
         left: 0px !important;
 }
 
+#button_home {
+        background: transparent;
+        border: none;
+        padding-left: 20px;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+}
+
 nav ul {
         float: right !important;
         padding-right: 20px !important;
